@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    font-size: 62.5%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+button {
+    border: 0;
+}
+.calculadora { 
+
+    width: 40rem;
+    margin: auto;
+    margin-top: 30px;
+}
+.mostrador {
+    border: 1px solid black;
+    background: rgba(183, 255, 0, 0.914);
+    min-width: 20rem;
+    width: 40rem;
+    min-height: 10rem;
+}
+.numeroCalc {
+    border: 1px solid black;
+    width: 10rem;
+    height: 9rem;
+    font-size: 2rem;
+    float: left;
+    transition: 10ms;
+}
+.operadores {
+    background: rgb(225, 225, 62);
+}
+.numeroCalc:active {
+    background: rgba(0, 0, 0, 0.79);
+}
+.teclado-geral {
+    background: rgb(0, 166, 255);
+}
+.NumZero {
+    width: 20rem;
+    background: lightgreen;
+}

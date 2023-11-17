@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+.cont {
+    background: rgb(186, 73, 73);
+    width: 100vw;
+    height: 100vh;
+    min-height: 100%;
+}
+.header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.264);
+}
+.headerbasic h1 a {
+    text-decoration: none;
+    color: white;
+}
+.headerbasic {
+    height: 5rem;
+    line-height: 5rem;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.301);
+    color: white;
+    padding: 5px;
+    transition: 10ms;
+}
+.button:active {
+    background: rgba(0, 0, 0, 0.371);
+}
+.contPrinc {
+    height: 100%;
+    
+}
+.contator {
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;*/
+}
+.Divrelogio {
+    margin: 2rem auto;
+    height: 30rem;
+    width: 50rem;
+    background: rgba(255, 255, 255, 0.371);
+}
+.buttonHeader  {
+    text-align: center;
+    margin: 0 10px;
+}
+.buttonHeader button {
+    font-family: 'Roboto', sans-serif;
+    background: rgba(0, 0, 0, 0.128);
+}

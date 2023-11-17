@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabecalhoG {
+    background: red;
+}
+.cabecalho {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    background: red;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: white;
+    align-items: center;
+}
+.cabecalho h1 a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.cabecalho button {
+    background: white;
+    border-radius: 10px;
+    border: 0;
+    text-transform: uppercase;
+    width: 50px;
+    height: 30px;
+}
+.cabecalho button:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+.main {
+    display: flex;
+}
+.cont-art-1 {
+    flex-direction: column;
+    background: pink;
+}
+.cont-art-1 h2 {
+    margin: 5px 25 px;
+    text-decoration: underline;
+}
+.cont-art-1 header {
+    margin: 0 0 10px 0;
+}
+
+.cont-art-1 main {
+    width: 40%;
+    height: auto;
+}
+.art-main {
+    margin: 10px 0 0 0;
+}
+.art-footer {
+    margin: 15px 15px 0 0;
+}
+
+.cont-art-2 {
+    flex-direction: row;
+    background: rgb(194, 19, 194);
+}

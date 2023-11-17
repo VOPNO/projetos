@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 1.2rem "Fira Sans", sans-serif ;
+    box-sizing: border-box;
+}
+body {
+    background: rgba(241, 14, 14, 0.849);
+}
+.dentro {
+    margin-top: 5px;
+    border-radius: 10px;
+    background: white;
+    max-height: 100%;
+    width: 70%;
+    height: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.dentro header h1 {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.cont {
+    text-align: center;
+}
+.pergunta {
+    transition: background-color 50ms ease;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 50%;
+}
+.pergunta:hover {
+    background-color: rgba(0, 0, 0, 0.082);
+    outline: none;
+}
+.botao {
+    padding: 6px 0;
+    font-size: 14px;
+    border: 0;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 20%;
+    max-width: 20%;
+    height: 26px;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 0, 0, 0.203);
+    transition: 100ms;
+}
+.pergunta::placeholder {
+    text-align: left;
+    font-size: 17px;
+}
+.botao:active {
+    background: rgba(0, 0, 0, 0.357);
+}
+#spanRef {
+    margin: 5px;
+}
+.taskText {
+    font-size: 25px;
+    margin: 0 0 0 10px;
+    cursor: pointer;  
+}
+.divTaskAdd {
+    display: flex;
+    margin: 0 0 5px 12%;   
+}
